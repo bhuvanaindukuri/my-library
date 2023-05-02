@@ -78,3 +78,23 @@
 - Security Information Management System (SIEM) 
   - Central system to monitor all security data
 
+### Data protection
+
+#### GDPR
+
+- 60 Opening clauses
+- Applies directly as European Law
+- Changes
+  - Strengthening Data Subject's right
+	- Subjects can easily access data & how it is processed
+  - Special protection of children
+    - Data processing consent can only be given along with legal guardian
+	- Applies to children age less than 16
+	- Countries can reduce age limit to 13
+  - Privacy by Design & Privacy by Default
+  - Data Protection Impact Assessment
+    - Risk of collecting personal data must be assessed & minimized before collection
+  - Extended territorial scope of applications
+    - All international companies with operations in EU must abide
+  - Higher fines for violations
+	- Upto 20M Euros or 4% of Worldwide Annual turnover
