@@ -98,3 +98,20 @@
     - All international companies with operations in EU must abide
   - Higher fines for violations
 	- Upto 20M Euros or 4% of Worldwide Annual turnover
+
+#### Privacy By Design
+- Main principles
+  - Legal basis of the processing
+  - Data Minimization
+  - Data retention period
+  - Security
+- Guidelines
+  - Privacy
+    - Purge
+    - Minimization
+    
+  - Security
+    - Levels DP0 to DP3
+    - Each level has set guidelines
+    - The level is defined based on the sensitivity of personal data
+    - Not same as data confidentiality level
