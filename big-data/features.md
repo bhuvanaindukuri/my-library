@@ -43,3 +43,20 @@
   - Modeling & Prediction of valence changes
   - Group event detection
   - Emergent behaviour analysis
+
+
+#### Scalable computing
+- Distributed filesystem
+- Distributed Computing
+  - Commodity clusters
+    - Generic and less powerful node
+
+#### Fault tolerance 
+- Redundant data storage
+- Data-Parallel job restart
+
+#### Programming models in Big Data
+- Support big data operations
+- Handle Fault tolerance
+- Enable adding more racks
+- Optimized for specific data types
