@@ -1,3 +1,8 @@
+#### Sources of Data
+- People
+- Organizations
+- Machines
+
 #### Charecterstics
 - Volume
 - Variety
@@ -60,3 +65,15 @@
 - Handle Fault tolerance
 - Enable adding more racks
 - Optimized for specific data types
+
+#### Steps in Data Science
+- Acquire (Data Engineering)
+- Prepapre (Data Engineering)
+  - Explore
+  - Pre-process
+    - Clean
+    - Integrate
+    - Package 
+- Analyze (Data Science)
+- Report (Data Science)
+- Act (Data Science)
