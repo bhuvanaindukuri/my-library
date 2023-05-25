@@ -3,6 +3,16 @@
 - Organizations
 - Machines
 
+#### Components
+- Ingest & Store
+- Catalog & Search
+- Process & serve
+- Protect & Secure
+
+#### Notes
+- Data lakes follow Schema-on-read architecture
+- DWH follow Schema-on-write architecture
+
 #### Charecterstics
 - Volume
 - Variety
