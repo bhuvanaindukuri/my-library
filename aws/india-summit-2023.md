@@ -53,3 +53,24 @@
     - Easy to build AI applications using foundation models
     - FMs like Jurassic-2, Claude, Stable Diffusion
     - Amazon FMs - Titan Text, Titan Embeddings   
+
+#### BI in AWS
+- QuickSight
+  - BI reports
+  - Paginated reports
+  - Augmented Analytics 
+    - Suggests missing Insights
+    - QuickSight Q - Build dashboards based on text 
+  - Embedding
+  - Enterprise reporting
+    - Fixed satic Dashboards 
+- Used by BigBasket
+- 
+#### ReshaMandi
+- Farm app
+- ML based solution
+- Uses SageMaker
+
+#### Choas Engineering
+- Stress Observe Improve (SOI)
+- AWS Fault Injection Simulator ( FIS )
