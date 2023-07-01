@@ -4,7 +4,9 @@
 - Context window - Space or memory that is available to the prompt
 - Completion - Output of the model
 - Inference - Act of using the model to generate text
+- Prompt Engineering - Improving the prompt for better outcome
 
+  
 #### Tranformer Architecture
 - Paper by Google & University
 - 2 components
@@ -40,3 +42,13 @@
   - Decoder only models
     - Most widely used
     - Examples: GPT family of models, BLOOM, Jurassic, LLaMA, and many more
+
+#### In-context Learning
+- Zero-Shot Inference
+  - Provide instructions and format
+  - No example
+- One shot inference
+  - Provide single example in the prompt
+  - Examples can help smaller models better
+- Few shot inference
+  - Multiple examples
