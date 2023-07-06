@@ -52,3 +52,21 @@
   - Examples can help smaller models better
 - Few shot inference
   - Multiple examples
+ 
+#### Configuration Config
+- Greedy
+  - Word/token with highest probability is selected
+  - Chances of repititions
+- Random(-weighted) Sampling
+  - Words chosen based on weight associated with the probability
+  - top - K
+    - Select only the top K words with highest probability
+  - top - P
+    - Select the words whose combined probability is less than P
+  - Temperature
+    - Changes the shape the probability distribution
+    - Higher the temperature, higher the randomness
+    - Greater than ( > ) 1 broader probability distribution for next token
+    - < 1 Strongly peaked distribution
+
+
