@@ -77,4 +77,12 @@
     - Greater than ( > ) 1 broader probability distribution for next token
     - < 1 Strongly peaked distribution
 
-
+#### Reduce memory usage
+- Quantization
+  - Reduce precision from FP32 to FP16, BFLOAT16
+  - BFLOAT16 maintains precision of FP32 but reduces memory footprint
+ 
+#### Scaling choices for pre-training
+- Increase dataset size
+- Increase number of parameters
+- Constraints - Budget
