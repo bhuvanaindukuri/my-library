@@ -35,12 +35,20 @@
   - Encoder Only Models
     - Not frequently used
     - Can be used for sentiment analysis with architecture changes
+    - Also known as Auto-encoding models
+    - Pretrained using masked language modeling
+    - Helps to predict masked tokens
+    - Bi-directional which means the context of the words before and after the token are available
+    - Also knows as full language modeling by some
+    - Ex: BERT, RoBERTa
   - Encoder Decoder Models
     - Perform well on sequence-to-sequence
-    - Good for translation kind of tasks  
+    - Good for translation, Summarization and question-answering
+    - Span corruption
     - Examples: BART , T5
   - Decoder only models
     - Most widely used
+    - Uni-directional which means only the words before the masked token are available
     - Examples: GPT family of models, BLOOM, Jurassic, LLaMA, and many more
 
 #### In-context Learning
