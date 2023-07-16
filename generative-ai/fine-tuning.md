@@ -62,5 +62,20 @@
  - MMLU (Massive Multitask Language Understanding)
  - Big-bench
 
-
+#### PEFT
+- Trade-offs
+  - Parameter Efficiency
+  - Memory Efficiency
+  - Training Speed
+  - Model Performance
+  - Inference Costs
+- Methods
+  - Selective
+  - Reparametirization Ex: LoRA
+    - Low Rank Adaptation ( LoRA)
+      - Build matrices for each task and replace when required
+  - Additive
+    - Adapters
+    - Soft Prompts
+      - Prompt Tuning
 
