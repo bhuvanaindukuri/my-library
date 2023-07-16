@@ -47,6 +47,20 @@
   - Bigram - Combination of 2 words 
   - LCS - Longest Common Subsequence
   - Clip - Function to deduplicate the matches
+ 
+ #### Evaluation Benchmarks
+ - GLUE ( General Language Understanding Evaluation )
+ - SuperGLUE
+ - HELM ( Holistic Evaluation of Language Models )
+   - Accuracy
+   - Calibration
+   - Robustness
+   - Fairness
+   - Bias
+   - Toxicity
+   - Efficiency
+ - MMLU (Massive Multitask Language Understanding)
+ - Big-bench
 
 
 
