@@ -79,3 +79,19 @@
     - Soft Prompts
       - Prompt Tuning
 
+#### Reinforcement learning from human feedback (RLHF)
+- Principles for fine-tuning ( HHH )
+  - Helpful
+  - Honest
+  - Harmless 
+- Reinforcement learning
+  - Terminology
+    - Agent
+    - Environment
+    - Action
+    - State
+    - Reward
+    - Rollout: The series of actions and corresponding states form a playout
+  - Note
+    - Agent makes decisions by following a strategy known as RL Policy
+    - Reward model can be used to evaluate the alignment with human preferences  
