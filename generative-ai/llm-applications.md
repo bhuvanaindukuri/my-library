@@ -1,0 +1,11 @@
+#### Challenges in LLMs
+- Out of Date / Knowledge cutoff
+  - Connect to external data sources and APIs to mitigate Ex: LangChain
+  - Retrieval Augmented Generation (RAG)  - 
+    -  Framework for building LLM powered systems that make use of external data sources
+- Wrong/ Lack of reasoning
+  - Chain of thought prompting
+    - Adding chain of thought to prompt text might help
+  - Program-aided Language(PAL) models
+    - LLM + Code Interpreter
+- 
