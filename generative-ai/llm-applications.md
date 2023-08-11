@@ -8,6 +8,7 @@
     - Adding chain of thought to prompt text might help
   - Program-aided Language(PAL) models
     - LLM + Code Interpreter
+    - Models that offload computational tasks to other programs.
 - 
 
 #### ReAct - Reasoning and Action
@@ -27,3 +28,12 @@
   - Generated Outputs & Feedback
 - LLM Tools & Frameworks - LangChain, Model Hubs
 - Application Interfaces
+
+#### Key terms
+- Proximal Policy Optimization (PPO)
+  - The constraint that limits the distance between the new and old policy
+- KL Divergence
+  - KL divergence is used to enforce a constraint that limits the extent of LLM weight updates.
+  - KL divergence measures the difference between two probability distributions.
+- LangChain
+  - The LangChain framework is built around LLMs and allows the chaining of various components to create more advanced applications for LLMs. It supports use cases like chatbots, Generative Question-Answering (GQA), and summarization.
