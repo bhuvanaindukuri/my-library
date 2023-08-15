@@ -37,3 +37,10 @@
   - KL divergence measures the difference between two probability distributions.
 - LangChain
   - The LangChain framework is built around LLMs and allows the chaining of various components to create more advanced applications for LLMs. It supports use cases like chatbots, Generative Question-Answering (GQA), and summarization.
+
+#### Challenges of AI
+- Toxicity
+- Hallucinations
+  - Factually incorrect data
+- Intellectual Property
+- 
