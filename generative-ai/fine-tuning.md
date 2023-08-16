@@ -95,3 +95,17 @@
   - Note
     - Agent makes decisions by following a strategy known as RL Policy
     - Reward model can be used to evaluate the alignment with human preferences  
+- RL Algorithm
+  - Updates the weights based on the score generated
+  - Frequently used
+    - Proximal Policy Optimization (PPO)  
+- Reward Hacking
+  - Usage of words for higher reward
+  - To avoid, Reference model can be used
+    - Weights are frozen for reference model
+    - KL Divergence Shift penalty is used to compare the output of reference model and RL-updated LLM
+
+#### Constitutional AI
+- Needed to deal with ethical challenges of AI output
+- Add ethics to helpful models
+- Reinforcement learning from AI Feedback (RLAIF)
