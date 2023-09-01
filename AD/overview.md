@@ -15,6 +15,11 @@
   - OU can have other OUs
   - Administration can be delegated at OU level
   - Link group policy Objects to OUs
+
+#### Security groups
+- Created as objects
+- Can add people
+- Can assign Password settings
  
 #### AD Services
 - Active Directory Domain Service ( ADDS )
