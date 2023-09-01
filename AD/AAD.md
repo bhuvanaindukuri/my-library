@@ -39,6 +39,12 @@
 - Domain Controller as a Service
 - Helps with lift and shift of on-prem applications
 
+#### AAD Management
+- Same domain name in AAD and AD helps with easy synchronization
+- Azure portal helps administrators with user management
+- My apps(myapps.microsoft.com) portal helps users with their access management like MFA and apps
+
+
 #### Notes
 - Windows authentication uses Kerberos protocol
     
