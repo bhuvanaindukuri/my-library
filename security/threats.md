@@ -1,4 +1,4 @@
-Types of Threats
+#### Types of Threats
 - Compromises to IP
 - Deviations in QoS
   - power, internet etc
@@ -22,3 +22,10 @@ Types of Threats
 - Denial of Service (DoS) & Distributed DoS
 - Spam
 - DNS Cache Poisoning
+
+#### Technical Hardware failure
+- Measures
+  - MTBF - Mean Time Between failures
+  - MTTD - Mean Time to Diagnose
+  - MTTR - Mean Time to Repair
+  - AFR - Annualized Failure Rate
