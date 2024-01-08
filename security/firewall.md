@@ -1,0 +1,21 @@
+#### Firewall
+- Any device that regulates the movement of information across networks from the outside world, known as the untrusted network, to the inside of the organization, known as trusted network.
+- Combination of Hardware and Software
+- Types
+  - Packet filtering firewalls
+  - Stateful packet inspection firewall
+  - Application layer proxy firewall
+    - Firewall + Proxy
+  - Unified Threat Management devices
+- Architectures
+  - Bastion Host Model/Sacrificial host model
+  - Screened Host Model
+  - Screened Subnet Model
+- Configuration Best practices
+  - Firewall should never be managed from outside the network
+  - Email traffic should only be routed to email server and nowhere else
+  - Web proxy go through proxy
+  - All outbound packets must have valid source and destination addresses
+  - All inbound packets must have valid source and destination addresses
+- Virtual Firewall Machines
+  - No dedicated hardware
