@@ -19,3 +19,55 @@
   - All inbound packets must have valid source and destination addresses
 - Virtual Firewall Machines
   - No dedicated hardware
+
+#### Intrusion Detection and Prevention System (IDPS)
+- Takes care of both detection and prevention
+- Types
+  - Host-Based IDPS (HIDPS)
+    - Compares hash values
+    - Issue with system files which are updated
+  - Network Based IDPS (NIDPS)
+    - Signature or knowledge based NIDPS
+      - Ex: Anti Virus
+- Attack response
+  - Log Suspecious activity
+  - Drop Suspecious traffic
+  - Render traffic benign
+  - Notify a human
+  - Modify its own configuration
+  - Modify a firewall or router
+  - Terminate a network connection
+- Challenges
+  - False positives
+- IDPS Clipping
+- IDPS Components
+  - IDPS Management Station
+  - IDPS Agents
+    - Switched Port Analyzer (SPAN)
+    - Network Tap
+- IDPS Load Balancing
+  - Distribute to multiple agents
+  - Distribute to agents based on volume
+  - Distribute based on Source or Destination IP or Service protocol
+- IDPS Limitations
+  - Cannot handle ecrypted data
+  - Cant handle high traffic loads
+  - Susceptible
+
+#### VPN Administration
+- VPN
+  - Uses encryption to create secure connection between 2 points
+- Modes
+  - Tunnel Mode / Point-to-Point VPN
+  - Transport Mode
+    - Session key is used to encrypt
+    - Used for remote user
+- VPN policies
+  - VPN User Policy
+  - Managerial SysSP: Configuration policy
+  - Tech SysSP
+  - Mobile device policies  
+- VPN Issues
+  - VPNs as part of firewalls
+  - Complex systems
+- 
