@@ -1,0 +1,9 @@
+### Definitions
+- Dimensions - Number of values in an vector
+- Attention
+  - Allows a model to focus on parts of input that are relevant to one another. Helps while generating embeddings for large complex sentences.
+  - Generally used in encoders and decoders in RNNs
+  - Avoid leakage of context
+- Transformer
+  - Has encoder and decoder
+  - Works well for translation
