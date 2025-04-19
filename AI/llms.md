@@ -7,3 +7,6 @@
 - Transformer
   - Has encoder and decoder
   - Works well for translation
+- Context Length
+  - Maximum number of tokens a generative LLM can process
+  - Includes generated tokens  
