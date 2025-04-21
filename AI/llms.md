@@ -28,3 +28,28 @@
          2) Combining information
       2) Feed Forward Neural Network      
   3) LM Head 
+
+### Attention
+- Split into multiple attention heads
+- Has key & value metrices
+- Types of attention
+  - Full attention
+    - Considers all the previous tokens
+  - Sparse transformer (Strided)
+    -  Considers last X tokens always
+  - Sparse transformer (Fixed)
+    - No of tokens varies from 0 to X
+  - Ring attention
+ 
+### Mixture of Expert MOE
+- Applicable in Feed Forward Neural network(FFNN)
+- Components
+  - Router
+  - Experts  
+- Each layer is split into multiple experts
+- one expert is chosen in each layer
+- Router identifies the right expert.
+  - Router is a small NN itself.
+  - Generates probability scores for each expert based on input
+- Examples of experts: Punctuation, verbs, conjunctions
+- In a sparse model only a subset of experts is activated at a given time 
